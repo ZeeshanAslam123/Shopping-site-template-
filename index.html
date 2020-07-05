@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title> Shopping site </title>
+	<title> fasion-site </title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="mediaStyle.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="shortcut icon" href="images/fashion.ico">
 </head>
 <body>
-	<!-- header section ====== -->
 	<header>
 		<div class="header_wrapper">
 			<div class="logo_icon_wrapper">
@@ -17,32 +18,218 @@
 					<img src="images/logo-header.png">
 				</div>
 				<div class="icon">
-					<a href="" class="icon1-a"><i class="fas fa-shopping-cart"></i><span>Cart</span></a>
-					<a href="" class="icon1-a"><i class="fas fa-user"><span>Guest</span></i></a>
+					<a href="" id="icon1-a"><i class="fas fa-shopping-cart"></i><span>Cart</span></a>
+					<a href="" id="icon2-a"><i class="fas fa-user"></i><span>Guest</span></a>
 				</div>
 			</div>
 			<div class="nav_search_wrapper">
 				<div class="navigation">
 					<ul>
-						<li><a href="#">HOME</a></li>
-						<li><a href="#">new arrivals</a></li>
-						<li><a href="#">deals</a></li>
-						<li><a href="#">make up</a></li>
-						<li><a href="#">tips & tricks</a></li>
+						<li title="home"><a href="">home</a></li>
+						<li><a href="">new arrivals</a></li>
+						<li><a href="">deals</a></li>
+						<li><a href="">wears</a></li>
+						<li><a href="">accessories</a></li>
+						<li><a href="">make up</a></li>
+						<li><a href="">tips & tricks</a></li>
 					</ul>
 				</div>
 				<div class="search-btn">
-					<input type="text" placeholder="search related to site">
-					<a href="#"><i class="fas fa-search"></i></a>
+					<input type="text" name="" placeholder="search something here">
+					<a href=""><i class="fas fa-search"></i></a>
 				</div>
 			</div>
 		</div>
 	</header>
-	<!-- end of header section -->
-	<div class="slider_image">
+
+	<div class="big_image">
 		<div class="main_image">
 			<img src="images/slider.jpg">
 		</div>
 	</div>
+
+	<div class="categories_pic">
+		<div class="categories_wrapper">
+			<div class="categories-heading">
+				<span><i class="fas fa-angle-double-down"></i></span><h2> CATEGORIES </h2>
+			</div>
+			<div class="pics">
+				<div class="first">
+					<a href="">
+						<img src="images/bags.jpg">
+						<span> Hand Bags </span>
+					</a>
+				</div>
+				<div class="second">
+					<a href="">
+						<img src="images/sandals.jpg">
+						<span> Sandals </span>
+					</a>
+				</div>
+				<div class="third">
+					<a href="">
+						<img src="images/earing.jpg">
+						<span> Earings </span>
+					</a>
+				</div>
+				<div class="forth">
+					<a href="">
+						<img src="images/watches.jpg">
+						<span> Watches </span>
+					</a>
+				</div>
+				<div class="fifth">
+					<a href="">
+						<img src="images/tops-tees.jpg">
+						<span> Tops & Tees </span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- product section started -->
+
+	<div class="product">
+		<div class="product_heading">
+			<span><i class="fas fa-angle-double-down"></i></span><h2> PRODUCTS </h2>
+		</div>
+		<div class="product_pics">
+			<div class="first">
+				<a href="#">
+					<img src="images/first-dress.jpg" id="img">
+					<div class="overly-product">
+						<div class="overly-wrapper">
+							<div id="heart"><i class="fas fa-heart"></i></div>
+							<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+							<h2> Special Ladies Dress</h2>
+							<h3> $235.00 </h3>
+							<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="second">
+				<a href="#">
+					<img src="images/first-dress.jpg" id="img">
+					<div class="overly-product">
+						<div class="overly-wrapper">
+							<div id="heart"><i class="fas fa-heart"></i></div>
+							<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+							<h2> Special Ladies Dress</h2>
+							<h3> $235.00 </h3>
+							<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="third">
+				<a href="#">
+					<img src="images/first-dress.jpg" id="img">
+					<div class="overly-product">
+						<div class="overly-wrapper">
+							<div id="heart"><i class="fas fa-heart"></i></div>
+							<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+							<h2> Special Ladies Dress</h2>
+							<h3> $235.00 </h3>
+							<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="forth">
+				<a href="#">
+					<img src="images/first-dress.jpg" id="img">
+					<div class="overly-product">
+						<div class="overly-wrapper">
+							<div id="heart"><i class="fas fa-heart"></i></div>
+							<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+							<h2> Special Ladies Dress</h2>
+							<h3> $235.00 </h3>
+							<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<!-- product section started -->
+
+	<div class="product">
+		<div class="product_pics">
+			<div class="first">
+				<a href="#">
+					<img src="images/first-dress.jpg" id="img">
+					<div class="overly-product">
+						<div class="overly-wrapper">
+							<div id="heart"><i class="fas fa-heart"></i></div>
+							<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+							<h2> Special Ladies Dress</h2>
+							<h3> $235.00 </h3>
+							<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="second">
+				<a href="#">
+					<img src="images/first-dress.jpg" id="img">
+					<div class="overly-product">
+						<div class="overly-wrapper">
+							<div id="heart"><i class="fas fa-heart"></i></div>
+							<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+							<h2> Special Ladies Dress</h2>
+							<h3> $235.00 </h3>
+							<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="third">
+				<a href="#">
+					<img src="images/first-dress.jpg" id="img">
+					<div class="overly-product">
+						<div class="overly-wrapper">
+							<div id="heart"><i class="fas fa-heart"></i></div>
+							<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+							<h2> Special Ladies Dress</h2>
+							<h3> $235.00 </h3>
+							<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="forth">
+				<a href="#">
+					<img src="images/first-dress.jpg" id="img">
+					<div class="overly-product">
+						<div class="overly-wrapper">
+							<div id="heart"><i class="fas fa-heart"></i></div>
+							<div id="search_plus"><i class="fas fa-search-plus"></i></div>
+							<h2> Special Ladies Dress</h2>
+							<h3> $235.00 </h3>
+							<a href="#"><i class="fas fa-shopping-cart" id="icon"></i><span id="addtocart">Add to Cart</span></a>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+
+		});
+
+
+	</script>
+
+
 </body>
 </html>
