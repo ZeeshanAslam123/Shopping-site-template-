@@ -523,3 +523,231 @@ header {
 	height: 100%;
 	width: 100%;
 }
+
+/*resent post sectio ================================  */
+
+
+.resent_post {
+	width: 100%;
+	height: 500px;
+	/* background: red; */
+}
+.post_wrapper {
+	width: 95%;
+	margin: 0 auto;
+	/* background: blue; */
+	height: 100%;
+}
+.post1 {
+	width: 30%;
+	/* background: lightgreen; */
+	 height: 100%;
+	 float: left;
+}
+.post2 {
+	width: 30%;
+	/* background: yellow; */
+	height: 100%; 
+	float: left;
+	margin-left: 5%;
+}
+.post3 {
+	width: 30%;
+	/* background: lightgray; */
+	height: 100%;
+	float: left;
+	margin-left: 5%;
+}
+
+	/* =================================== subscribe area section start */
+
+#subscribe {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+#subscribe .subscribe-area {
+  display: inline;
+  float: left;
+  padding: 50px 0;
+  width: 100%;
+  text-align: center;
+}
+#subscribe .subscribe-area .h3 {
+  color: #222;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+#subscribe .subscribe-area p {
+  color: #333;
+  font-size: 15px;
+  letter-spacing:1.2px;
+}
+.subscribe-form {
+	width: 100%;
+	text-align: center;
+	margin:  0 auto;
+	padding: 10px;
+}
+.subscibe_email {
+	border: 1px solid gray;
+	padding: 10px 100px;
+}
+.subscribe_submit {
+	background: #ff6666;
+	border: 0;
+	font-size: 90%;
+	padding:  8px 12px;
+	color: #fff;
+	cursor: pointer;
+}
+/* ============ end subscribe area section ============================ */
+
+/* footer section style code */
+
+footer{
+	/* position: fixed; */
+	bottom: 0;
+}
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+ 
+	padding: 55px 50px;
+	margin-top: 215px;
+}
+ 
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 40%;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+ 
+.footer-distributed h3 span{
+	color:  #5383d3;
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 0px 0 5px;
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ /* company name====================== */
+ 
+.footer-distributed .footer-center{
+	width: 35%;
+}
+ 
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+ 
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+ 
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+ 
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+ 
+.footer-distributed .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;
+}
+ /* footer center css end */
+
+ 
+.footer-distributed .footer-right{
+	width: 20%;
+}
+ 
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+ 
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+ 
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+ 
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+ 
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
